@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Netflix</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/f/ff/Netflix-new-icon.png" type="png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="next.html">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="b">
+        <img class="img1" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs">
+        <div class="h">Unlimited movies, TV<br>shows and more</div>
+        <img class="img2" src="https://wallpapers.com/images/featured/netflix-logo-png-fqwt81hprrz7xsfg.jpg">
+        <div class="hh">Starts at ₹149. Cancel at any time.</div>
+        <div class="hhh">Ready to watch? Enter your email to create or restart your membership.</div>
+        <div>
+        <!-- <input class="em" name="mail" id="mail" type="mail" placeholder="Enter Email" required>
+        <a href="next.html"><button type="submit" class="but">Get Started   ></button></a>
+        </div> -->
+        <form action="next.html">
+            <input class="em" type="email" placeholder="Enter Email" required>
+            <input class="em1" type="password" placeholder="Enter Password" required>
+            <button type="submit" class="but">Get Started   ></button>
+        </form>
+    </div>
+    <div class="c">
+        <!-- <img class="imgc" src="Netflix.png">
+        <button class="buto">></button> -->
+        <img class="imgc" id="imageToChange" src="Netflix.png" alt="Image">
+    
+    <button class="buto" onclick="changeImage()">></button>
+
+    <script>
+        function changeImage() {
+            const img = document.getElementById('imageToChange');
+            img.src ="Netflix2.png"; 
+        }
+    </script>
+    <button class="butoo" onclick="changeeImage()"><</button>
+
+    <script>
+        function changeeImage() {
+            const img = document.getElementById('imageToChange');
+            img.src ="Netflix.png"; 
+        }
+    </script>
+    
+    </div>
+</body>
+</html>

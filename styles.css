@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap');
+.b{
+    position:absolute;
+    background-color: black;
+    width:1500px;
+    height:800px;
+    margin:0;
+    padding:0;
+    /* background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs");
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+.img1{
+    position:absolute;
+    width:1500px;
+    height:800px;
+    margin:0;
+    padding:0;
+    opacity: 0.3;
+}
+.img2{
+    position:absolute;
+    width:150px;
+    height:45px;
+    margin:0;
+    margin-left: 140px;
+    margin-top: 14px;
+    padding:0;
+}
+body{
+    background-color: black;
+    color:white;
+}
+.h{
+    position: absolute;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+    color:white;
+    opacity: 100%;
+    letter-spacing: -5px;
+    font-family:spartan;
+    margin-left:450px;
+    margin-top: 200px;
+}
+.pp{
+    font-weight: 900;
+    text-align: center;
+}
+.hh{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    color:white;
+    opacity: 100%;
+    font-family:spartan;
+    margin-left:560px;
+    margin-top: 350px;
+}
+.hhh{
+    position: absolute;
+    font-size: 17px;
+    text-align: center;
+    color:white;
+    opacity: 100%;
+    /* font-family:spartan; */
+    margin-left:490px;
+    margin-top: 400px;
+}
+.em{
+    position:absolute;
+    background-color: black;
+    color:white;
+    opacity:0.5;
+    border: 1px solid grey;
+    height:40px;
+    width:400px;
+    margin-left:450px;
+    margin-top:450px;
+    z-index:100px;
+    border-radius: 8px;
+}
+.em1{
+    position:absolute;
+    background-color: black;
+    color:white;
+    opacity:0.5;
+    border: 1px solid grey;
+    height:40px;
+    width:400px;
+    margin-left:450px;
+    margin-top:500px;
+    z-index:100px;
+    border-radius: 8px;
+}
+.but{
+    position: absolute;
+    z-index:100px;
+    width:200px;
+    height:100px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    margin-left: 860px;
+    margin-top: 446px;
+    border-radius: 8px;
+}
+.c{
+    position: absolute;
+    background-color: black;
+    width:1500px;
+    height:800px;
+    margin-top:800px;
+    padding:1px;
+}
+.imgc{
+    width:1500px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.buto{
+    z-index:100px;
+    width:30px;
+    height:120px;
+    position: relative;
+    background-color: grey;
+    color: white;
+    border:0;
+    border-radius: 10px;
+    margin-left: 1320px;
+    margin-top: 260px;
+}
+.buto:hover{
+    background-color: black;
+    color:grey;
+    border:1px solid white;
+}
+.butoo{
+    z-index:100px;
+    width:30px;
+    height:120px;
+    position: relative;
+    background-color: grey;
+    color: white;
+    border:0;
+    border-radius: 10px;
+    margin-left: -1210px;
+}
+.butoo:hover{
+    background-color: black;
+    color:grey;
+    border:1px solid white;
+}
